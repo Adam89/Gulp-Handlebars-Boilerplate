@@ -20,8 +20,8 @@ var startPath = 'index.html';
 
 var info = require('./package.json');                       // Package data
 var gulp = require('gulp');									// Gulp
+var assemble = require('assemble');									// compiles handlebars template files
 var browserify = require('gulp-browserify');									// bundles javascript modules
-var handlebars = require('gulp-handlebars');									// compiles handlebars template files
 var sass = require('gulp-sass'); 						// Compile SASS
 var browserSync = require('browser-sync'); 					// Open a new browser session and load changes instantly
 var del = require('del'); 									// Delete files
@@ -38,3 +38,6 @@ var mainBowerFiles = require('main-bower-files');			// Get only the main library
 var plumber = require('gulp-plumber');                      // Better error handling
 var notify = require('gulp-notify');                        // Popup notifications on screen
 var autoprefixer = require('gulp-autoprefixer');            // Add vendor prefixes to CSS
+
+
+
