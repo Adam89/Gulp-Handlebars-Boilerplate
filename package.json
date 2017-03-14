@@ -17,6 +17,8 @@
     "gulp-browserify": "^0.5.1",
     "gulp-changed": "^2.0.0",
     "gulp-concat": "^2.6.1",
+    "gulp-hb": "^6.0.2",
+    "gulp-htmlmin": "^3.0.0",
     "gulp-json-lint": "^0.1.0",
     "gulp-main-bower-files": "^1.6.1",
     "gulp-notify": "^3.0.0",
@@ -29,5 +31,8 @@
     "jshint": "^2.9.4",
     "run-sequence": "^1.2.2",
     "yargs": "^7.0.2"
+  },
+  "dependencies": {
+    "gulp-extname": "^0.2.2"
   }
 }
